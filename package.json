@@ -1,8 +1,8 @@
 {
-  "name": "tilestrata-mapnik",
-  "version": "0.4.1",
+  "name": "@conorpai/tilestrata-mapnik",
+  "version": "0.4.2",
   "description": "A TileStrata plugin for rendering tiles with mapnik",
-  "author": "Brian Reavis <brian@naturalatlas.com>",
+  "author": "ConorPai",
   "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naturalatlas/tilestrata-mapnik.git"
+    "url": "git+https://github.com/conorpai/tilestrata-mapnik.git"
   },
   "keywords": [
     "tilestrata",
@@ -19,12 +19,12 @@
     "mapnik"
   ],
   "bugs": {
-    "url": "https://github.com/naturalatlas/tilestrata-mapnik/issues"
+    "url": "https://github.com/conorpai/tilestrata-mapnik/issues"
   },
-  "homepage": "https://github.com/naturalatlas/tilestrata-mapnik",
+  "homepage": "https://github.com/conorpai/tilestrata-mapnik",
   "dependencies": {
     "lodash": "^3.10.1",
-    "tilelive-mapnik": "^0.6.17"
+    "@conorpai/tilelive-mapnik": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^3.3.0",
@@ -33,5 +33,11 @@
   },
   "peerDependencies": {
     "tilestrata": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

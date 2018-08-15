@@ -1,1 +1,1 @@
-See https://github.com/naturalatlas/tilestrata-mapnik/releases
+See https://github.com/conorpai/tilestrata-mapnik/releases
