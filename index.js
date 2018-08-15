@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var MapnikBackend = require('tilelive-mapnik');
+var MapnikBackend = require('@conorpai/tilelive-mapnik');
 
 module.exports = function(options) {
 	options = _.defaults(options, {
