@@ -32,7 +32,7 @@
     "mocha": "^2.3.3"
   },
   "peerDependencies": {
-    "tilestrata": "*"
+    "@conorpai/tilestrata": "*"
   },
   "directories": {
     "test": "test"
