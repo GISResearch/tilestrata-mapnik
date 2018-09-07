@@ -70,9 +70,19 @@ module.exports = function(options) {
 		});
 	}
 
+	/**
+	 * get source.
+	 *
+	 * @return source
+	 */
+	function getSource() {
+		return source;
+	}
+
 	return {
 		name: 'mapnik',
 		init: initialize,
-		serve: options.interactivity ? serveGrid : serveImage
+		serve: options.interactivity ? serveGrid : serveImage,
+		sourc: getSource
 	};
 };
