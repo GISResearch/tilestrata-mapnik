@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/younghappy/tilestrata-mapnik.git"
+    "url": "git+https://github.com/GISResearch/tilestrata-mapnik.git"
   },
   "keywords": [
     "tilestrata",
@@ -19,9 +19,9 @@
     "mapnik"
   ],
   "bugs": {
-    "url": "https://github.com/younghappy/tilestrata-mapnik/issues"
+    "url": "https://github.com/GISResearch/tilestrata-mapnik/issues"
   },
-  "homepage": "https://github.com/younghappy/tilestrata-mapnik",
+  "homepage": "https://github.com/GISResearch/tilestrata-mapnik",
   "dependencies": {
     "lodash": "^3.10.1",
     "@younghappy/tilelive-mapnik": "*"
