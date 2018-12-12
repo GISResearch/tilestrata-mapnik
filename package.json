@@ -1,8 +1,8 @@
 {
-  "name": "@conorpai/tilestrata-mapnik",
+  "name": "@younghappy/tilestrata-mapnik",
   "version": "0.4.6",
   "description": "A TileStrata plugin for rendering tiles with mapnik",
-  "author": "ConorPai",
+  "author": "younghappy",
   "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conorpai/tilestrata-mapnik.git"
+    "url": "git+https://github.com/younghappy/tilestrata-mapnik.git"
   },
   "keywords": [
     "tilestrata",
@@ -19,12 +19,12 @@
     "mapnik"
   ],
   "bugs": {
-    "url": "https://github.com/conorpai/tilestrata-mapnik/issues"
+    "url": "https://github.com/younghappy/tilestrata-mapnik/issues"
   },
-  "homepage": "https://github.com/conorpai/tilestrata-mapnik",
+  "homepage": "https://github.com/younghappy/tilestrata-mapnik",
   "dependencies": {
     "lodash": "^3.10.1",
-    "@conorpai/tilelive-mapnik": "*"
+    "@younghappy/tilelive-mapnik": "*"
   },
   "devDependencies": {
     "chai": "^3.3.0",
@@ -32,7 +32,7 @@
     "mocha": "^2.3.3"
   },
   "peerDependencies": {
-    "@conorpai/tilestrata": "*"
+    "@younghappy/tilestrata": "*"
   },
   "directories": {
     "test": "test"
